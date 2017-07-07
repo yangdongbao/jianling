@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+            .txphb{
+                    position: absolute;
+                    width: 698px;
+                    height: 456px;
+                    font-size: 12px;
+                    line-height: 1.5;
+                     font-family: "\5b8b\4f53",sans-serif;
+                    color: #999;
+                    border: 1px solid #ccc;
+                    background: #fff;
+            }
+            .new-game{
+                    float: left;
+                    width: 212px;
+                    height: 422px;
+                    padding: 0 10px;
+                    margin: 17px 0 8px;
+                    border-left: 1px solid #e2e2e2;
+                    margin-left: -1px;
+            }
+            .h-l{
+                    display: inline;
+                    float: left;
+                    margin: 0;
+                    padding: 0;
+                    font-size: 12px;
+                    color: #555;
+            }
+            .a-r{
+                float: right;
+            }
+            .txphb a {
+                    color: #707e91;
+                    text-decoration: none;
+            }
+
+            .new-head {
+                    float: left;
+                    width: 207px;
+                    padding-right: 5px;
+                    padding-bottom: 2px;
+                    height: 18px;
+                    border-bottom: 1px solid #e5e5e5;
+            }
+
+            .moremore{
+                    font-family: arial;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 18px;
+            }
+            .game-body {
+                float: left;
+            }
+
+            .new-game ul {
+                    float: left;
+                    list-style: none;
+                    padding: 9px 0 0;
+                    margin: 0;
+            }
+
+            .new-game .rank-head {
+                    float: left;
+                    width: 212px;
+                    overflow: visible;
+                    padding: 0;
+                    height: 27px;
+            }
+            .new-game .rank-item{
+                    float: left;
+                    width: 212px;
+                    overflow: visible;
+                    padding: 0;
+            }
+
+            .rank-order-color{
+                    position: relative;
+                    z-index: 10;
+                    margin-bottom: -14px;
+                    color: #fff;
+                    border: 1px solid #ff4e00;
+                    background: #ff4e00;
+                    float: left;
+                    width: 12px;
+                    height: 12px;
+                    /*margin: 2px 15px 0 4px;*/
+                        margin-left: 4px;
+                    line-height: 12px;
+                    text-align: center;
+            }
+
+            .name-game{
+                    display: inline;
+                    float: left;
+                    padding-bottom: 9px;
+                    padding-bottom: 7px;
+            }
+            .game-cover{
+                    /*display: none;*/
+                     position: relative;
+                     width: 194px;
+                     height: 82px;
+                     margin-left: 4px;
+                     overflow: hidden;
+                     padding: 1px;
+                     border: 1px solid #ccc;
+                     background: #fff;
+            }
+
+            .game-meta {
+                position: absolute;
+                bottom: 1px;
+                left: 1px;
+                margin: 0;
+                padding: 0;
+                width: 194px;
+                overflow: hidden;
+                background-color: rgba(0,0,0,0.75);
+                height: 28px;
+            }
+            .game-link{
+                    float: left;
+                    width: 97px;
+                    height: 13px;
+                    line-height: 13px;
+                    padding: 7px 0 8px;
+                    color: #aaa;
+                    text-align: center;
+                    cursor: pointer;
+            }
+
+            .icon-home{
+                    display: inline-block;
+                    font-size: 0.1em;
+                    margin: 0 5px;
+                    vertical-align: top;
+                    background-image: url(images/ost_rank_sp.png);
+                    background-repeat: no-repeat;
+                    width: 13px;
+                    height: 13px;
+                    background-position: 0 0;
+            }
+            .icon-download{
+                display: inline-block;
+                    font-size: 0.1em;
+                    margin: 0 5px;
+                    vertical-align: top;
+                    background-image: url(images/ost_rank_sp.png);
+                    background-repeat: no-repeat;
+                    width: 13px;
+                    height: 13px;
+                    background-position: 0 0;
+            }
+            .pdl-40 {
+                padding-left:40px;
+            }
+    </style>
+</head>
+<body>
+    <div class="txphb">
+        <div class="new-game">
+            <div class="new-head">
+                <h2 class="h-l">新游排行榜</h2>
+                <a href="#" class="a-r">更多<i class="moremore">>></i></a>
+            </div>
+            <div class="game-body">
+                <ul>
+                    <li class="rank-head">
+                            <span>排名</span>
+                            <span>游戏</span>
+                    </li>
+                    <li class="rank-item">
+                  <span class="rank-order-color">1</span>
+                                <div class="name-game">
+
+                                    <a href="#"></a>
+
+                                    <div class="game-cover">
+
+                                        <img class="game-img" src="images/mxd2-2.jpg" alt="" width="194" height="82">
+                                        <p class="game-meta">
+                                            <a href="#" class="game-link"><i class="icon-home"></i>进入官网</a>
+                                            <a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a>
+                                        </p>
+                                    </div>
+                                </div>
+                    </li>
+                    <li class="rank-item">
+                            <span class="rank-order-color">2</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">变形金刚OL</a>
+                            </div>
+
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">兽人必须死</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">4</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">火源计划</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">5</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">流放之路</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">6</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">全职大师</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">7</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">极品飞车</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">8</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">刀锋铁骑</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">9</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">蛇蛇争霸</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">10</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">斗罗大陆</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="new-game">
+            <div class="new-head">
+                <h2 class="h-l">新游排行榜</h2>
+                <a href="#" class="a-r">更多<i class="moremore">>></i></a>
+            </div>
+            <div class="game-body">
+                <ul>
+                    <li class="rank-head">
+                            <span>排名</span>
+                            <span>游戏</span>
+                    </li>
+                    <li class="rank-item">
+                  <span class="rank-order-color">1</span>
+                                <div class="name-game">
+
+                                    <a href="#"></a>
+
+                                    <div class="game-cover">
+
+                                        <img class="game-img" src="images/lol-2.jpg" alt="" width="194" height="82">
+                                        <p class="game-meta">
+                                            <a href="#" class="game-link"><i class="icon-home"></i>进入官网</a>
+                                            <a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a>
+                                        </p>
+                                    </div>
+                                </div>
+                    </li>
+                    <li class="rank-item">
+                            <span class="rank-order-color">2</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">地下城与勇士</a>
+                            </div>
+
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">穿越火线</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">4</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">QQ炫舞</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">5</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">FIFA Online3</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">6</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">逆战</a>
+                            </div>
+                    </li>
+
+                    <li class="rank-item">
+                        <span class="rank-order-color">7</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">天涯明月刀</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">8</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">英魂之刃</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">9</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">梦幻恋舞</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">10</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">QQ飞车</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="new-game">
+            <div class="new-head">
+                <h2 class="h-l">新游排行榜</h2>
+                <a href="#" class="a-r">更多<i class="moremore">>></i></a>
+            </div>
+            <div class="game-body">
+                <ul>
+                    <li class="rank-head">
+                            <span>排名</span>
+                            <span>游戏</span>
+                    </li>
+                    <li class="rank-item">
+                  <span class="rank-order-color">1</span>
+                                <div class="name-game">
+
+                                    <a href="#"></a>
+
+                                    <div class="game-cover">
+
+                                        <img class="game-img" src="images/mhzx-2.jpg" alt="" width="194" height="82">
+                                        <p class="game-meta">
+                                            <a href="#" class="game-link"><i class="icon-home"></i>进入官网</a>
+                                            <a href="#" class="game-link"><i class="icon-download"></i>下载游戏</a>
+                                        </p>
+                                    </div>
+                                </div>
+                    </li>
+                    <li class="rank-item">
+                            <span class="rank-order-color">2</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">御龙在天手游</a>
+                            </div>
+
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">3</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">征途</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">4</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">火影忍者</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">5</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">王室战争</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">6</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">王者荣耀</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">7</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">穿越火线</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">8</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">天天酷跑</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">9</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">欢乐斗地主</a>
+                            </div>
+                    </li>
+                    <li class="rank-item">
+                        <span class="rank-order-color">10</span>
+                            <div class="name-game">
+                                <a href="#" class="pdl-40">热血传奇</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

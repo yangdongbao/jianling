@@ -1,0 +1,157 @@
+.BG {
+    background: url(../images/av_bg.jpg) 150px top;
+    margin-top: 42px;
+}
+
+.content-1 {
+    width: 960px;
+    min-height: 680px;
+    margin-left: 260px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.av_header {
+    display: block;
+    width: 731px;
+    height: 103px;
+    background: url(../images/av_header.png) 0 0 no-repeat;
+    text-indent: -9999em;
+}
+
+.show {
+    width: 731px;
+    height: 453px;
+    box-shadow: 4px 0 27px 13px rgba(0, 0, 0, .6);
+}
+
+.show-nav {
+    height: 65px;
+    margin: 20px 0 30px;
+}
+
+.show-nav-t {
+    float: left;
+    width: 65px;
+    height: 65px;
+    margin-right: 25px;
+    background: url(../images/av_nav.png) 0 -9999em no-repeat;
+    text-indent: -9999em;
+}
+
+.sn-t1 {
+    background-position: 0 -65px;
+}
+
+.sn-t2 {
+    background-position: -65px 0;
+}
+
+.sn-t3 {
+    background-position: -130px 0;
+}
+
+.sn-t4 {
+    background-position: -195px 0;
+}
+
+.sn-t2:hover {
+    background-position: -65px -65px;
+}
+
+.sn-t3:hover {
+    background-position: -130px -65px;
+}
+
+.sn-t4:hover {
+    background-position: -195px -65px;
+}
+
+/*.show {
+    width: 731px;
+    height: 453px;
+    background-color: #000000;
+}*/
+
+
+.box {
+            width: 713px;
+            height: 454px;
+            padding: 8px;
+            border: 1px solid black;
+        }
+        .inner {
+            position: relative;
+            overflow: hidden;
+            height: 454px;
+        }
+        #imglist {
+            width: 700%;
+            position: absolute;
+            left: 0;
+        }
+        li {
+            float: left;
+        }
+        .list-1 {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            margin-left: -85px;
+        }
+        .list-1 i {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: #333;
+            float: left;
+            font-style: normal;
+            line-height: 20px;
+            font-size: 14px;
+            text-align: center;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .list-1 i:last-child {
+            margin-right: 0;
+        }
+        .list-1 i.current-1{
+            background-color: skyblue;
+            color: #fff;
+        }
+        .arrow {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            margin-top: -30px;
+
+        }
+        #arrow {
+            display: none;
+        }
+        .arrow-left,.arrow-right{
+            width: 30px;
+            height: 60px;
+            position: absolute;
+            font: 20px/60px "consolas";
+            color: #fff;
+            background-color: rgba(0,0,0,.3);
+            text-align: center;
+            cursor: pointer;
+        }
+        .arrow-right {
+            right: 0;
+        }
+
+
+
+.ost_pop {
+    width: 700px;
+    height:386px;
+    top: 32px;
+    right: 7px;
+    position: absolute;
+    display: none;
+    z-index: 9000;
+}
